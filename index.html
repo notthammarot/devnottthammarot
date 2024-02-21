@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>NOTT_DEV</title>
+    <link rel="icon" href="./assets/png/profile.jpg" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"/>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+    <link rel="stylesheet" href="./style.css" />
+
+  </head>
+
+  <body>
+
+    <button onclick="backToTop();" id="btt" title="Back to top" style="font-size: 30px; width: 60px;"> <i class="fas fa-angle-up"></i> </button>
+
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          <div class="header__logo-img-cont">
+            <img
+              src="./assets/png/profile.jpg"
+              class="header__logo-img"
+            />
+          </div>
+          <span class="header__logo-sub">NOTT_DEV</span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link"> About </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link"> Projects
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#contact" class="header__link"> Contact </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Home </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about"> About </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projects"> Projects </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#contact"> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    
+    <section class="home-hero">
+    <div class="home-hero__content">
+      <div style="display: flex; justify-content: center;">
+        <i class="fab fa-github home-hero__icon" style="font-size: 35px; margin-right: 20px; filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.5));"></i>
+        <i class="fab fa-html5 home-hero__icon" style="font-size: 35px; margin-right: 20px; filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.5))"></i>
+        <i class="fab fa-css3-alt home-hero__icon" style="font-size: 35px;  margin-right: 20px; filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.5)) "></i>
+        <i class="fab fa-js home-hero__icon" style="font-size: 35px;  margin-right: 20px; filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.5)) "></i>
+        <i class="fab fa-php home-hero__icon" style="font-size: 35px;  margin-right: 20px; filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.5)) "></i>
+        <i class="fab fa-bootstrap home-hero__icon" style="font-size: 35px;  margin-right: 20px; filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.5)) "></i>
+        <i class="fas fa-database home-hero__icon" style="font-size: 35px;  margin-right: 20px; filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.5)) "></i>
+      </div>     
+
+    <h4 class="heading-primary"> Hi, My Name is Thammarot Sucharoenpong</h4>
+  <center>
+      <div class="lds-facebook"><div></div><div></div><div></div></div>
+  </center> 
+
+    <div class="home-hero__info">
+    <p class="text-primary">
+      ยินดีต้อนรับเข้าสู่ เว็บรวบรวมผลงาน ระบบแก้ปัญหาต่างๆในองค์กร การเขียนเว็บแอพพลิเคชัน ด้วยภาษา HTML JS CSS และ SQL PHP
+    </p>
+    </div>
+    <div class="home-hero__cta">
+    <a href="./#projects" class="btn btn--bg"><i class="fas fa-code-branch home-hero__icon"></i> Projects</a>
+    </div>
+    </div>
+
+      <div class="home-hero__socials">
+        <div class="home-hero__social">
+          <a href="https://github.com/notthammarot" class="home-hero__social-icon-link home-hero__social-icon-link--bd-none">
+            <i class="fab fa-github" style="font-size: 25px;"></i>
+          </a>
+        </div>
+
+        <div class="home-hero__social">
+          <a href="https://discord.com/channels/@me" class="home-hero__social-icon-link home-hero__social-icon-link--bd-none">
+            <i class="fab fa-discord" style="font-size: 25px;"></i>
+          </a>
+        </div>
+      
+        <div class="home-hero__social">
+          <a href="https://www.facebook.com/notthammasad317" class="home-hero__social-icon-link home-hero__social-icon-link--bd-none">
+            <i class="fab fa-facebook" style="font-size: 25px;"></i>
+          </a>
+        </div>
+
+        <div class="home-hero__social">
+          <a href="https://www.instagram.com/not_thammarot/" class="home-hero__social-icon-link home-hero__social-icon-link--bd-none">
+          <i class="fab fa-instagram" style="font-size: 25px;"></i>
+          </a>
+        </div>
+
+        <div class="home-hero__social">
+          <a href="https://line.me/ti/p/tG39KlOZL6" class="home-hero__social-icon-link home-hero__social-icon-link--bd-none">
+            <i class="fab fa-line" style="font-size: 25px;"></i>
+          </a>
+        </div>
+
+      </div>
+      <div class="home-hero__mouse-scroll-cont">
+        <div class="mouse"></div>
+      </div>
+    </section>
+    
+    <section id="about" class="about sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main"><i class="fab fa-github-alt home-hero__icon"></i> About Me</span>
+          <span class="heading-sec__sub">
+            
+          </span>
+        </h2>
+        <div class="about__content">
+          <div class="about__content-main">
+            <h3 class="about__content-title"><i class="fas fa-hashtag home-hero__icon"></i> Get to know me!</h3>
+            <div class="about__content-details">
+              <p class="about__content-details-para">
+                ชื่อจริง-นามสกุล (ชื่อเล่น)
+                <br><strong> - นายธรรมโรจน์  สุเจริญพงศ์ (น๊อต)</strong> 
+                <br>ตำแหน่ง ณ ปัจจุบัน
+                <br><strong> - Full-Stack Web Developer </strong>
+               
+              </p>
+              <p class="about__content-details-para">
+                รับงานเสริม<br>
+                <strong>- รับออกแบบเว็บไซต์ทั่วไป <br> - รับออกแบบสื่อสิ่งพิมพ์ทุกชนิด ภาพต่างๆ</strong><br>
+                <strong>- รับถ่ายภาพโปรไฟล์ทั่วไปและรับแต่งภาพทั่วไป</strong><br>
+                (รับงานเสริม วันเสาร์-อาทิตย์ และนอกเวลาราชการ <br>วันจ.-ศ. หลัง-เวลา 16.30 น.)<br>
+              </p>
+            </div>
+            <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr"
+              ><i class="fas fa-project-diagram home-hero__icon"></i> Contact</a
+            >
+          </div>
+          
+          <div class="about__content-skills">
+            <h3 class="about__content-title"> <i class="fas fa-hashtag home-hero__icon"></i> My Skills</h3>
+            <div class="skills">
+              <div class="skills__skill home-hero__icon"><i class="fab fa-html5 home-hero__icon"></i> HTML</div>
+              <div class="skills__skill home-hero__icon"><i class="fab fa-css3-alt home-hero__icon"></i> CSS</div>
+              <div class="skills__skill home-hero__icon"><i class="fab fa-js home-hero__icon"></i> JavaScript</div>
+              <div class="skills__skill home-hero__icon"><i class="fas fa-database home-hero__icon"></i> SQL</div>
+              <div class="skills__skill home-hero__icon"><i class="fab fa-php home-hero__icon"></i> PHP</div>
+              <div class="skills__skill home-hero__icon"><i class="fab fa-grav home-hero__icon"></i> Photoshop</div>
+              <div class="skills__skill home-hero__icon"><i class="fab fa-grav home-hero__icon"></i> Illustrator</div>
+              <div class="skills__skill home-hero__icon"><i class="fab fa-grav home-hero__icon"></i> Lightroom</div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-bg ">
+          <span class="heading-sec__main"><i class="fas fa-code-branch home-hero__icon"></i> Projects</span>
+          <span class="heading-sec__sub">
+            แสดงตัวอย่างลิสต์รายการผลงาน <br> - กดดูเพิ่มเติมเพื่อเข้าดูข้อมูล รายละเอียดเพิ่มเติมเกี่ยวกับระบบเว็บแอพพลิเคชัน 
+          </span>
+        </h2>
+        <div class="projects__content">
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+                <img
+                    src="./assets/png/shiftreport_mockup_total.png"
+                    alt="Software Screenshot"
+                    class="projects__row-img "
+                    loading="lazy"
+                />
+            </div>
+            <div class="projects__row-content">
+                <h3 class="projects__row-content-title"> Shift - Report | NAH</h3>
+                <p class="projects__row-content-desc">
+                    - ระบบจัดการและรายงานค่าเวร<br>
+                    - Copyright © 2024 Created by NOTT_DEV<br>
+                    - Owner of NAH Hospital
+                </p>
+                <a href="project-1.html" class="btn btn--med btn--theme dynamicBgClr">
+                    <i class="fas fa-external-link-alt home-hero__icon"></i> ดูเพิ่มเติม
+                </a>
+            </div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact sec-pad dynamicBg">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main heading-sec__main--lt"><i class="fas fa-comments home-hero__icon"></i> Contact</span>
+          <span class="heading-sec__sub heading-sec__sub--lt">
+            ติดต่อ-สอบถาม ผู้พัฒนาระบบ กรอกข้อมูลตามแบบฟอร์มได้เลยครับ
+          </span>
+        </h2>
+        <div class="contact__form-container">
+          <form action="#" class="contact__form">
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="name">Name</label>
+              <input
+                required
+                placeholder="Enter Your Name"
+                type="text"
+                class="contact__form-input"
+                name="name"
+                id="name"
+              />
+            </div>
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="email">Email</label>
+              <input
+                required
+                placeholder="Enter Your Email"
+                type="text"
+                class="contact__form-input"
+                name="email"
+                id="email"
+              />
+            </div>
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="message">Message</label>
+              <textarea
+                required
+                cols="30"
+                rows="10"
+                class="contact__form-input"
+                placeholder="Enter Your Message"
+                name="message"
+                id="message"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn--theme contact__btn">
+              <i class="fas fa-paper-plane home-hero__icon"></i> ส่งไปอีเมล์
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+    
+    <footer class="main-footer">
+      <div class="main-container">
+        <div class="main-footer__upper">
+          <div class="main-footer__row main-footer__row-1">
+            <h2 class="heading heading-sm main-footer__heading-sm">
+              <span>Social</span>
+            </h2>
+            <div class="main-footer__social-cont">
+              <a target="_blank" rel="noreferrer" href="https://github.com/notthammarot">
+                <i class="fab fa-github home-hero__icon" style="font-size: 25px; margin-right: 10px; "></i>
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://discord.com/channels/@me">
+                <i class="fab fa-discord home-hero__icon" style="font-size: 25px; margin-right: 10px; "></i>
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://www.facebook.com/notthammasad317">
+                <i class="fab fa-facebook home-hero__icon" style="font-size: 25px; margin-right: 10px; "></i>
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://www.instagram.com/not_thammarot/">
+                <i class="fab fa-instagram home-hero__icon" style="font-size: 25px; margin-right: 10px; "></i>
+              </a>
+              <a target="_blank" rel="noreferrer" href="https://line.me/ti/p/tG39KlOZL6">
+                <i class="fab fa-line home-hero__icon" style="font-size: 25px; margin-right: 10px; "></i>
+              </a>
+            </div>
+          </div>
+          <div class="main-footer__row main-footer__row-2">
+            <h4 class="heading heading-sm text-lt">Thammarot S.(Nott_Dev)</h4>
+            <p class="main-footer__short-desc">
+              Personal motto : Make today better than yesterday.
+            </p>
+          </div>
+        </div>
+
+        <div class="main-footer__lower">
+          Copyright &copy; 2024  Made by
+          <a rel="noreferrer" target="_blank" href="https://notthammarotportfolio.netlify.app">NOTT_DEV
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./index.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
